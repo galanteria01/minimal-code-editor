@@ -7,7 +7,10 @@ function compile() {
 	
 	 document.body.onkeyup = function(){
 	    code.open();
-		code.writeln(html.value+"<style>"+css.value+"</style>"+"<script>" + js.value + "</script>");
+		code.writeln(
+			"<!DOCTYPE html> <html lang> <head></head>"+
+			html.value+"<style>"+css.value+"</style>"+"<script>" + js.value + "</script>"
+			+"</html>");
 		code.close();
       };
     };
