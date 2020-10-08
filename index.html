@@ -9,21 +9,23 @@
     <title>Minimal Coditor</title>
 </head>
 <body>
+
+    <!-- This is navbar Section-->
     <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <a class="navbar-brand text-light" href="#">Minimal Coditor</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse text-light" id="navbarNav">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
               <a class="nav-link text-light" href="#">Editor<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">About Developer</a>
+              <a class="nav-link text-light" href="https://galanteria01.github.io/">About Developer</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-light" href="#">Contribute</a>
+              <a class="nav-link text-light" href="#">Save</a>
             </li>   
           </ul>
         </div>
@@ -32,12 +34,13 @@
     <!-- This area is for placing storage boxes -->
     <div class="container-fluid">
         <div class="row">
-            <textarea id="html" placeholder="Enter HTML code here" class="col-md-4 bg-secondary"></textarea>
-            <textarea id="css" placeholder="Enter CSS code here" class="col-md-4 bg-secondary"></textarea>
-            <textarea id="js" placeholder="Enter Javascript code here" class="col-md-4 bg-secondary"></textarea>
+            
+            <textarea id="html" placeholder="Enter HTML code here" class="col-md-4 bg-secondary">HTML</textarea>
+            <textarea id="css" placeholder="Enter CSS code here" class="col-md-4 bg-secondary">CSS</textarea>
+            <textarea id="js" placeholder="Enter Javascript code here" class="col-md-4 bg-secondary">JS</textarea>
         </div>
     </div>
-    <!--This is display screen-->
+    <!--This is display code results-->
     <div class="container-fluid">
         <div class="row">
             <iframe id="code" class="col-md-12"></iframe>
@@ -49,3 +52,9 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
+
+
+
+<!-- Todo
+1) Adding save functionalites
+3) Adding about the developer page-->
