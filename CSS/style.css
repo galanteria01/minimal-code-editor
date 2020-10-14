@@ -10,11 +10,10 @@ textarea{
     overflow: auto;
     margin: auto;
     display: inline-block;
-    background: #f4f4f9;
+    background: #1B1B1B;
     outline: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4px;
-    border-radius: 5px;
 
 }
 
@@ -26,6 +25,16 @@ iframe{
 }
 #html,#css,#js{
     font-size: 12px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
+.day{
+    background-color: #1b1b1b;
+}
+.navbar{
+    background-color: #1b1b1b;
+}
+
+.navbar .navbar-brand{
+    
+}
