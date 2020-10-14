@@ -14,5 +14,6 @@ function compile() {
 		code.close();
       };
     };
-
-compile();
+if(code.value != null){
+	compile();
+}
