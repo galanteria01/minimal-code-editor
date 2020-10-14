@@ -35,6 +35,14 @@ iframe{
     background-color: #1b1b1b;
 }
 
-.navbar .navbar-brand{
+.navbar .navbar-brand {
     
 }
+document.body.onkeyup = function(){
+    code.open();
+    code.writeln(
+        "<!DOCTYPE html> <html lang> <head></head>"+
+        htmlCode.value+"<style>"+cssCode.value+"</style>"+"<script>" + jsCode.value + "</script>"
+        +"</html>");
+    code.close();
+  };
